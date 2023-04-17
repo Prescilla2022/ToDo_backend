@@ -13,7 +13,7 @@ const PORT = process.env.port || 10000;
 app.use(express.json());
 app.use(cors());
 app.get("/",(req,res)=>{
-  res.setHeader("Access-Control-Allow-Credentials","true"),
+  res.setHeader("Access-Control-Allow-Credentials","true");
     res.send("Api running");
 });
   
